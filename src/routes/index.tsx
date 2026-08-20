@@ -507,23 +507,6 @@ function Index() {
         </div>
       </section>
 
-      {/* ---------------- PROVA SOCIAL ---------------- */}
-      <section className="bg-secondary/70 py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-5 sm:px-8">
-          <div className="max-w-3xl">
-            <SectionEyebrow>Prova social</SectionEyebrow>
-            <h2 className="mt-5 text-3xl sm:text-4xl md:text-5xl">QUEM EXPERIMENTA, ENTENDE.</h2>
-            <p className="mt-4 text-sm text-muted-foreground sm:text-base">
-              Espaços preparados para você inserir depoimentos reais: prints de WhatsApp,
-              comentários, fotos, vídeos e avaliações.
-            </p>
-          </div>
-          <div className="mt-10">
-            <Testimonials />
-          </div>
-        </div>
-      </section>
-
       {/* ---------------- OFERTA ---------------- */}
       <section id="oferta" className="scroll-mt-8 bg-primary-deep py-16 text-primary-foreground md:py-24">
         <div className="dotgrid absolute inset-x-0 h-0" aria-hidden />
