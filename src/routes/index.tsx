@@ -571,14 +571,14 @@ function Index() {
               <div className="mt-7 rounded-2xl bg-muted p-5">
                 <p className="eyebrow text-muted-foreground">De</p>
                 <p className="font-display text-xl font-extrabold text-muted-foreground line-through">
-                  R$ 000,00
+                  R$ 29,90
                 </p>
                 <p className="eyebrow mt-3 text-accent">Por</p>
                 <p className="font-display text-4xl font-extrabold text-primary-deep sm:text-5xl">
-                  R$ 00,00
+                  R$ 12,90
                 </p>
                 <p className="mt-2 text-xs text-muted-foreground">
-                  Espaço reservado para os valores da sua oferta.
+                  Aproveite o preço promocional de lançamento.
                 </p>
               </div>
 
