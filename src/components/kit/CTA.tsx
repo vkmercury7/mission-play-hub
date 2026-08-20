@@ -1,13 +1,18 @@
 import { ArrowRight } from "lucide-react";
 
+const CHECKOUT_URL =
+  "https://hub.usepinpay.com/pay/ea65198a-96c4-4da7-b067-3b27c646037a";
+
 export function CTA({
   children = "QUERO O KIT ANTI-TÉDIO",
   size = "lg",
   className = "",
+  href = CHECKOUT_URL,
 }: {
   children?: React.ReactNode;
   size?: "lg" | "md";
   className?: string;
+  href?: string;
 }) {
   const sizing =
     size === "lg"
@@ -16,7 +21,7 @@ export function CTA({
 
   return (
     <a
-      href="#oferta"
+      href={href}
       className={`cta-base w-full text-center sm:w-auto ${sizing} ${className}`}
     >
       <span>{children}</span>

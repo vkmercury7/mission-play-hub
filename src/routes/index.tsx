@@ -566,7 +566,7 @@ function Index() {
 
               <div className="mt-7">
                 <a
-                  href="#"
+                  href="https://hub.usepinpay.com/pay/ea65198a-96c4-4da7-b067-3b27c646037a"
                   className="cta-base w-full px-6 py-5 text-base sm:text-lg"
                   aria-label="Quero meu Kit Anti-Tédio"
                 >
@@ -634,7 +634,7 @@ function Index() {
 
           <div className="mt-9 flex flex-col items-center gap-4">
             <a
-              href="#oferta"
+              href="https://hub.usepinpay.com/pay/ea65198a-96c4-4da7-b067-3b27c646037a"
               className="inline-flex w-full items-center justify-center rounded-full bg-primary-deep px-8 py-5 font-display text-base font-extrabold text-primary-foreground shadow-lift transition-transform duration-200 hover:-translate-y-0.5 sm:w-auto sm:text-lg"
             >
               QUERO O KIT ANTI-TÉDIO
@@ -685,7 +685,7 @@ function Index() {
             </p>
           </div>
           <a
-            href="#oferta"
+            href="https://hub.usepinpay.com/pay/ea65198a-96c4-4da7-b067-3b27c646037a"
             className="cta-base shrink-0 px-5 py-3.5 text-sm"
             aria-label="Quero o Kit Anti-Tédio"
           >
