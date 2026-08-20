@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
-  Baby,
   Brain,
   Check,
   CloudRain,
@@ -10,11 +9,9 @@ import {
   Lightbulb,
   Lock,
   Palette,
-  Printer,
-  Search,
   ShieldCheck,
   Smartphone,
-  SmartphoneOff,
+  MonitorOff,
   Sparkles,
   Sun,
   Users,
@@ -88,7 +85,7 @@ const categories = [
     tone: "bg-primary/10 text-primary",
   },
   {
-    icon: SmartphoneOff,
+    icon: MonitorOff,
     title: "SEM TELA",
     text: "Ideias para substituir alguns momentos de celular, tablet e TV.",
     tone: "bg-accent/10 text-accent",
@@ -713,10 +710,6 @@ function Index() {
             QUERO O KIT
           </a>
         </div>
-      </div>
-
-      <div className="sr-only">
-        <Baby /> <Printer /> <Search />
       </div>
     </main>
   );
