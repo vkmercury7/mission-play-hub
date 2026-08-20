@@ -25,7 +25,6 @@ import missionCards from "@/assets/mission-cards.png";
 import kitSpread from "@/assets/kit-spread.png";
 import kidEnergy from "@/assets/kid-energy.jpg";
 import { CTA, SectionEyebrow } from "@/components/kit/CTA";
-import { Testimonials } from "@/components/kit/Testimonials";
 import { Faq } from "@/components/kit/Faq";
 
 const TITLE = "KIT ANTI-TÉDIO | Dê uma missão, não um celular";
