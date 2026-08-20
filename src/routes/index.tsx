@@ -25,7 +25,6 @@ import missionCards from "@/assets/mission-cards.png";
 import kitSpread from "@/assets/kit-spread.png";
 import kidEnergy from "@/assets/kid-energy.jpg";
 import { CTA, SectionEyebrow } from "@/components/kit/CTA";
-import { Testimonials } from "@/components/kit/Testimonials";
 import { Faq } from "@/components/kit/Faq";
 
 const TITLE = "KIT ANTI-TÉDIO | Dê uma missão, não um celular";
@@ -504,23 +503,6 @@ function Index() {
               Cada atividade tem um contexto, um objetivo e uma recompensa. É isso que faz a criança
               querer brincar de novo — sem pedir a tela.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ---------------- PROVA SOCIAL ---------------- */}
-      <section className="bg-secondary/70 py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-5 sm:px-8">
-          <div className="max-w-3xl">
-            <SectionEyebrow>Prova social</SectionEyebrow>
-            <h2 className="mt-5 text-3xl sm:text-4xl md:text-5xl">QUEM EXPERIMENTA, ENTENDE.</h2>
-            <p className="mt-4 text-sm text-muted-foreground sm:text-base">
-              Espaços preparados para você inserir depoimentos reais: prints de WhatsApp,
-              comentários, fotos, vídeos e avaliações.
-            </p>
-          </div>
-          <div className="mt-10">
-            <Testimonials />
           </div>
         </div>
       </section>
