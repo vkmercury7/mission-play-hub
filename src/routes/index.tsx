@@ -557,7 +557,7 @@ function Index() {
                 </p>
                 <p className="eyebrow mt-3 text-accent">Por</p>
                 <p className="font-display text-4xl font-extrabold text-primary-deep sm:text-5xl">
-                  R$ 12,90
+                  R$ 14,90
                 </p>
                 <p className="mt-2 text-xs text-muted-foreground">
                   Aproveite o preço promocional de lançamento.
