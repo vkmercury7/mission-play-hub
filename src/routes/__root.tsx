@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { MetaPixelScript, MetaPixelTracker } from "../components/MetaPixel";
 
 function NotFoundComponent() {
   return (
@@ -111,9 +112,19 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <MetaPixelScript />
       </head>
       <body>
         {children}
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=1707159287246649&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
         <Scripts />
       </body>
     </html>
@@ -125,6 +136,7 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      <MetaPixelTracker />
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
     </QueryClientProvider>
